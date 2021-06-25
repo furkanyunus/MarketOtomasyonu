@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="anchor1" prefHeight="462.0" prefWidth="706.0" styleClass="background" stylesheets="@application.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.SampleController">
+   <children>
+      <Button fx:id="kapatButonu" layoutX="330.0" layoutY="313.0" mnemonicParsing="false" onAction="#btnKapat_clicked" prefHeight="46.0" prefWidth="114.0" style="-fx-background-color: #c20808;" text="KAPAT" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Button>
+      <TextField fx:id="kullaniciAdi" layoutX="112.0" layoutY="194.0" prefHeight="36.0" prefWidth="158.0" promptText="Admin" />
+      <PasswordField fx:id="sifre" layoutX="112.0" layoutY="238.0" prefHeight="36.0" prefWidth="158.0" promptText="Sifre" />
+      <Label fx:id="hataliGiris" layoutX="270.0" layoutY="382.0" prefHeight="55.0" prefWidth="262.0" text="             HATA KISMI!!!" textAlignment="CENTER" textFill="#c70b0b">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="133.0" layoutY="23.0" prefHeight="103.0" prefWidth="415.0" text="      Hoş Geldiniz" textFill="#c20808">
+         <font>
+            <Font name="System Bold" size="47.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txt_Abone" layoutX="494.0" layoutY="192.0" prefHeight="36.0" prefWidth="158.0" promptText="Kullancı Adı" />
+      <Label layoutX="380.0" layoutY="187.0" prefHeight="36.0" prefWidth="99.0" text="Kullanıcı Adı:" textFill="#c20808">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txt_AboneSifre" accessibleRole="PASSWORD_FIELD" layoutX="494.0" layoutY="244.0" prefHeight="36.0" prefWidth="158.0" promptText="Sifre" />
+      <Button fx:id="girisButonu" layoutX="125.0" layoutY="313.0" mnemonicParsing="false" onAction="#btnGirisYap_clicked" prefHeight="46.0" prefWidth="126.0" style="-fx-background-color: #c20808;" text="ADMİN GİRİŞİ" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+      <Button fx:id="btn_KullanıcıGris" layoutX="511.0" layoutY="313.0" mnemonicParsing="false" onAction="#btn_KullanıcıGris_Click" prefHeight="46.0" prefWidth="126.0" style="-fx-background-color: #c20808;" text="KULLANICI GİRİŞİ" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+      <Button fx:id="kayıt_Ol" layoutX="567.0" layoutY="128.0" mnemonicParsing="false" onAction="#kayıt_Ol_Click" prefHeight="36.0" prefWidth="99.0" style="-fx-background-color: #c20808;" text="Kayıt Ol" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+      <Label layoutX="438.0" layoutY="239.0" prefHeight="36.0" prefWidth="50.0" text="Şifre:" textFill="#c20808">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="45.0" layoutY="194.0" prefHeight="36.0" prefWidth="66.0" text="Admin:" textFill="#c20808">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="59.0" layoutY="239.0" prefHeight="36.0" prefWidth="50.0" text="Şifre:" textFill="#c20808">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

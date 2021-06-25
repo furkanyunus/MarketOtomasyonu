@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.chart.PieChart?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="458.0" prefWidth="588.0" styleClass="background" stylesheets="@application.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.tumUrunler">
+   <children>
+      <PieChart fx:id="pichrt_Grafik" layoutX="44.0" layoutY="19.0" prefHeight="366.0" prefWidth="512.0" title="PİECHART" />
+      <Button fx:id="btn_Piehatrt" layoutX="318.0" layoutY="401.0" mnemonicParsing="false" onAction="#btnpichart_Göster" prefHeight="34.0" prefWidth="102.0" style="-fx-background-color: #c20808;" text="GÖSTER" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Button>
+      <Button fx:id="Kapat_btn" layoutX="168.0" layoutY="401.0" mnemonicParsing="false" onAction="#Kapat_btn_click" prefHeight="34.0" prefWidth="96.0" style="-fx-background-color: #c20808;" text="KAPAT" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
